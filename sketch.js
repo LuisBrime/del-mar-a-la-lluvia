@@ -23,7 +23,7 @@ const settings = {
   context: 'webgl', // WebGL context if p5 needs it
   animate: true, // Turn on a render loop
   dimensions: [W, H], // dimensions of the sketch
-  duration: 10, // duration of the sketch,
+  duration: 45, // duration of the sketch,
   fps: 60,
 }
 
