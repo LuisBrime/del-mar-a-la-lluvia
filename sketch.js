@@ -3,7 +3,7 @@
 // para guardar una imagen del sketch: CMD + S
 // para guardar una sequencia de imagnes de la duración del sketch: CMD + SHIFT + S
 // yo uso ffmpeg para convertir una sequencia de imagenes en video con el siguiente comando:
-// ffmpeg -r 60 -f image2 -s 1920x1080 -i tmp/%03d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p video.mp4
+// ffmpeg -r 60 -f image2 -s 1920x1080 -i tmp/%03d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p -vframes 2822 -start_number 0 -y video.mp4
 
 // canvas-sketch de Matt te ayuda a exportar sketches de forma rapida y experimentar con creative coding, checalo aquí: https://github.com/mattdesl/canvas-sketch
 
@@ -23,7 +23,7 @@ const settings = {
   context: 'webgl', // WebGL context if p5 needs it
   animate: true, // Turn on a render loop
   dimensions: [W, H], // dimensions of the sketch
-  duration: 45, // duration of the sketch,
+  //duration: 45, // duration of the sketch,
   fps: 60,
 }
 

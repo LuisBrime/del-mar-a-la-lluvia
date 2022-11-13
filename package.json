@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "canvas-sketch sketch.js --open",
-    "export": "canvas-sketch sketch.js --output=tmp --stream"
+    "start": "canvas-sketch sketch.js --output=tmp --open",
+    "export": "canvas-sketch sketch.js --output=tmp --stream --open"
   },
   "repository": {
     "type": "git",

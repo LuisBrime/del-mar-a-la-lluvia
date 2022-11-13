@@ -6,7 +6,7 @@ varying vec2 vUv;
 
 void main() {
   vec2 uv = vUv;
-  float t = uTime;
+  float t = min(uTime, 45.);
 
   float dt = t * 0.65;
   // Control repetition of shapes over x (cos) and y (sin)
