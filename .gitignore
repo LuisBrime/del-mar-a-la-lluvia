@@ -1,8 +1,8 @@
 node_modules
 *.DS_Store
 */*.DS_Store
-.mp4
-.png
-.jpg
-.jpeg
-./tmp
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*/tmp
